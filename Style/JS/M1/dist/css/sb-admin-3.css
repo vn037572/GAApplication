@@ -1,0 +1,726 @@
+/*!
+ * Start Bootstrap - SB Admin 2 Bootstrap Admin Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    /**background-image:url(../../../imgs/bg.png);**/
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#page-wrapper {
+    padding: 0 15px;
+    min-height: 568px;
+    background-color: #fff;
+}
+
+@media(min-width:768px) {
+    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 0 30px;
+        border-left: 1px solid #e7e7e7;
+    }
+}
+
+.container-FEIT {
+    width: 1020px;
+    background-color: #ffffff;
+}
+
+.div-FEIT {
+    width: 1020px;
+}
+.navbar-top-links {
+    margin-right: 0;
+}
+
+.navbar-top-links li {
+    display: inline-block;
+}
+
+.navbar-top-links li:last-child {
+    margin-right: 15px;
+}
+
+.navbar-top-links li a {
+    padding: 15px;
+    min-height: 50px;
+}
+
+.navbar-top-links .dropdown-menu li {
+    display: block;
+}
+
+.navbar-top-links .dropdown-menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar-top-links .dropdown-menu li a {
+    padding: 3px 20px;
+    min-height: 0;
+}
+
+.navbar-top-links .dropdown-menu li a div {
+    white-space: normal;
+}
+
+.navbar-top-links .dropdown-messages,
+.navbar-top-links .dropdown-tasks,
+.navbar-top-links .dropdown-alerts {
+    width: 310px;
+    min-width: 0;
+}
+
+.navbar-top-links .dropdown-messages {
+    margin-left: 5px;
+}
+
+.navbar-top-links .dropdown-tasks {
+    margin-left: -59px;
+}
+
+.navbar-top-links .dropdown-alerts {
+    margin-left: -123px;
+}
+
+.navbar-top-links .dropdown-user {
+    right: 0;
+    left: auto;
+}
+
+.sidebar .sidebar-nav.navbar-collapse 
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.sidebar .sidebar-search {
+    
+}
+
+.sidebar ul li {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.sidebar ul li a.active {
+    background-color: #eee;
+}
+
+.sidebar .arrow {
+    float: right;
+}
+
+.sidebar .fa.arrow:before {
+    content: "\f104";
+}
+
+.sidebar .active>a>.fa.arrow:before {
+    content: "\f107";
+}
+
+.sidebar .nav-second-level li,
+.sidebar .nav-third-level li {
+    border-bottom: 0!important;
+}
+
+.sidebar .nav-second-level li a {
+    padding-left: 20px;
+}
+
+.sidebar .nav-third-level li a {
+    padding-left: 52px;
+}
+
+@media(min-width:768px) {
+    .sidebar {
+        z-index: 1;
+        position: absolute;
+        width: 250px;
+        margin-top: 51px;
+    }
+
+    .navbar-top-links .dropdown-messages,
+    .navbar-top-links .dropdown-tasks,
+    .navbar-top-links .dropdown-alerts {
+        margin-left: auto;
+    }
+}
+
+.btn-outline {
+    color: inherit;
+    background-color: transparent;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+
+.chat {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.chat li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #999;
+}
+
+.chat li.left .chat-body {
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body {
+    margin-right: 60px;
+}
+
+.chat li .chat-body p {
+    margin: 0;
+}
+
+.panel .slidedown .glyphicon,
+.chat .glyphicon {
+    margin-right: 5px;
+}
+
+.chat-panel .panel-body {
+    height: 350px;
+    overflow-y: scroll;
+}
+
+.login-panel {
+    margin-top: 25%;
+}
+
+.flot-chart {
+    display: block;
+    height: 400px;
+}
+
+.flot-chart-content {
+    width: 100%;
+    height: 100%;
+}
+
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+    background: 0 0;
+}
+
+table.dataTable thead .sorting_asc:after {
+    content: "\f0de";
+    float: right;
+    font-family: fontawesome;
+}
+
+table.dataTable thead .sorting_desc:after {
+    content: "\f0dd";
+    float: right;
+    font-family: fontawesome;
+}
+
+table.dataTable thead .sorting:after {
+    content: "\f0dc";
+    float: right;
+    font-family: fontawesome;
+    color: rgba(50,50,50,.5);
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.428571429;
+}
+
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    border-radius: 25px;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.show-grid [class^=col-] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ddd;
+    background-color: #eee!important;
+}
+
+.show-grid {
+    margin: 15px 0;
+}
+
+.huge {
+    font-size: 40px;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green a {
+    color: #5cb85c;
+}
+
+.panel-green a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red a {
+    color: #d9534f;
+}
+
+.panel-red a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+    color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
+
+/**用於系統最左上角的字**/
+.lbChinaHead 
+{
+    font-family:'Microsoft JhengHei';font-weight:bold;font-size:40px;color:#ff4500;
+}
+
+/**用於系統最左上角的字**/
+.lbBT 
+{
+    font-family:'Microsoft JhengHei';font-weight:bold;font-size:40px;color:#D9534F;
+}
+
+
+/**用於系統命令樹的字**/
+.lbChina {
+    font-family:'Microsoft JhengHei';font-size:18px;color:#555555;
+}
+
+/**用於系統 Tab 標籤的字**/
+.lbChinaTablb {
+    font-family:'Microsoft JhengHei';font-weight:bold;font-size:18px;color:#337ab7;
+}
+
+/**用於系統控件的字**/
+.lbChinaControl {
+    font-family:'Microsoft JhengHei';font-weight:bold;font-size:18px;color:#000000;text-align: left;
+}
+
+.lbChinalable {
+    font-family:'Microsoft JhengHei';font-weight:bold;font-size:16px;color:#000000;width: 200px;
+}
+
+/**用於系統控件的字**/
+.lbChinaControlRed {
+    font-family:'Microsoft JhengHei';font-weight:bold;font-size:18px;color:#dc143c;text-align: left;
+}
+
+/**用於系統彈出層 標題的字**/
+.lbChinaLayerHeader {
+    font-family:'Microsoft JhengHei';font-weight:bold;font-size:18px;color:#ffffff;
+}
+
+/**用於系統 按鈕 的字**/
+.lbChinabtn {
+    font-family:'Microsoft JhengHei';font-weight:bold;font-size:18px;color:#000000;
+}
+
+/**用於系統 Grid header 的字**/
+.lbChinaGridHeader {
+    font-family:'Microsoft JhengHei';font-weight:bold;font-size:18px;color:#000000;
+}
+
+/**用於系統 Grid 明細 的字**/
+.lbChinaGriditem {
+    font-family:'Microsoft JhengHei';font-size:18px;color:#000000;
+}
+
+/**用於系統 Grid 明細 數字 的字**/
+.lbNumGriditem {
+    font-family:'Arial';font-size:18px;color:#000000;
+}
+
+/**用於系統 數字 的字**/
+.lbNum 
+{
+    font-family:'Arial';font-weight:bold;font-size:18px;color:#000000;
+}
+
+.navbar-feit {
+  background-color: #f8f8f8;
+  border-color: #f8f8f8;
+
+}
+
+.navbar-feit-bottom {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.navbar-feit-back 
+{
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+}
+
+/**用於每頁的頁面名字，顯示在左上方**/
+.page-header-feit 
+{
+    font-family:'Microsoft JhengHei';font-weight:bold;font-size:24px;color:#337ab7;
+    border-bottom:1px solid #eee
+}
+
+/** 彈出層的head**/
+.modal-header-feit {
+  min-height: 16.42857143px;
+  padding: 12px;
+  padding-left:10px;
+  padding-right:10px;
+  border-bottom: 1px solid #e5e5e5;
+ /** background-color:#ff6e01;**/
+   background-color: #ff4500;
+  border-top-right-radius: 4px;  
+ border-top-left-radius: 4px;  
+
+}
+
+/**用於控件頁面row之間的間隔線**/
+.row-line-feit 
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    border: 0.5px solid #eeeeee;
+}
+
+/**Progress Bar用於控件頁面row之間的間隔線**/
+.cent
+{
+    margin: 0 auto;
+    width: 100px;
+    overflow: hidden;
+}
+.progressbar
+{
+    border: 1px solid #c9c9c9;
+    float: left;
+    height: 8px;
+    margin-top: 6px;
+    width: 60px;
+}
+.progressbar
+{
+    display: inline-block;
+    line-height: 14px;
+    text-align: left;
+}
+.progressbar .currentprogress
+{
+    background-color: #d7d7d7;
+    display: block;
+    height: 100%;
+    width: 0;
+}
+span.propercentage
+{
+    float: left;
+    padding-left: 10px;
+}
+/**刷新按鈕 Start**/
+.btn-refresh {
+      background-color: #9F4D95;
+  border-color: #CA8EC2;
+}
+
+.btn-refresh:hover,
+.btn-refresh:focus,
+.btn-refresh.focus,
+.btn-refresh:active,
+.btn-refresh.active,
+.open > .dropdown-toggle.btn-refresh {
+  color: #fff;
+  background-color: #9F4D95;
+  border-color: #CA8EC2;
+}
+.btn-refresh:active,
+.btn-refresh.active,
+.open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+.btn-refresh.disabled,
+.btn-refresh[disabled],
+fieldset[disabled] .btn-refresh,
+.btn-refresh.disabled:hover,
+.btn-refresh[disabled]:hover,
+fieldset[disabled] .btn-refresh:hover,
+.btn-refresh.disabled:focus,
+.btn-refresh[disabled]:focus,
+fieldset[disabled] .btn-refresh:focus,
+.btn-refresh.disabled.focus,
+.btn-refresh[disabled].focus,
+fieldset[disabled] .btn-refresh.focus,
+.btn-refresh.disabled:active,
+.btn-refresh[disabled]:active,
+fieldset[disabled] .btn-refresh:active,
+.btn-refresh.disabled.active,
+.btn-refresh[disabled].active,
+fieldset[disabled] .btn-refresh.active {
+  background-color: #9F4D95;
+  border-color: #CA8EC2;
+}
+.btn-refresh .badge {
+  color: #5bc0de;
+  background-color: #fff;
+}
+/**刷新按鈕 End**/
+
+/**添加明细 Start**/
+.btn-addDetail {
+      background-color: #87CEFA;
+  border-color: #C0C0C0;
+}
+
+.btn-addDetail:hover,
+.btn-addDetail:focus,
+.btn-addDetail.focus,
+.btn-addDetail:active,
+.btn-addDetail.active,
+.open > .dropdown-toggle.btn-addDetail {
+  color: #0000FF;
+  background-color: #E0FFFF;
+  border-color: #CA8EC2;
+}
+.btn-addDetail:active,
+.btn-addDetail.active,
+.open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+.btn-addDetail.disabled,
+.btn-addDetail[disabled],
+fieldset[disabled] .btn-addDetail,
+.btn-addDetail.disabled:hover,
+.btn-addDetail[disabled]:hover,
+fieldset[disabled] .btn-addDetail:hover,
+.btn-addDetail.disabled:focus,
+.btn-addDetail[disabled]:focus,
+fieldset[disabled] .btn-addDetail:focus,
+.btn-addDetail.disabled.focus,
+.btn-addDetail[disabled].focus,
+fieldset[disabled] .btn-addDetail.focus,
+.btn-addDetail.disabled:active,
+.btn-addDetail[disabled]:active,
+fieldset[disabled] .btn-addDetail:active,
+.btn-addDetail.disabled.active,
+.btn-addDetail[disabled].active,
+fieldset[disabled] .btn-addDetail.active {
+  background-color: #E0FFFF;
+  border-color:  #CA8EC2;
+}
+.btn-addDetail .badge {
+  color: #5bc0de;
+  background-color: #fff;
+}
+/**添加明细 End**/
+
+
+
+/**保存明细 Start**/
+.btn-saveDetail {
+      background-color:#FF4500;
+  border-color:#DCDCDC;
+}
+
+.btn-saveDetail:hover,
+.btn-saveDetail:focus,
+.btn-saveDetail.focus,
+.btn-saveDetail:active,
+.btn-saveDetail.active,
+.open > .dropdown-toggle.btn-saveDetail {
+  color:  #F0F8FF ;
+  background-color: #F4A460;
+  border-color: #DCDCDC;
+}
+.btn-saveDetail:active,
+.btn-saveDetail.active,
+.open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+.btn-saveDetail.disabled,
+.btn-saveDetail[disabled],
+fieldset[disabled] .btn-saveDetail,
+.btn-saveDetail.disabled:hover,
+.btn-saveDetail[disabled]:hover,
+fieldset[disabled] .btn-saveDetail:hover,
+.btn-saveDetail.disabled:focus,
+.btn-saveDetail[disabled]:focus,
+fieldset[disabled] .btn-saveDetail:focus,
+.btn-saveDetail.disabled.focus,
+.btn-saveDetail[disabled].focus,
+fieldset[disabled] .btn-saveDetail.focus,
+.btn-saveDetail.disabled:active,
+.btn-saveDetail[disabled]:active,
+fieldset[disabled] .btn-saveDetail:active,
+.btn-saveDetail.disabled.active,
+.btn-saveDetail[disabled].active,
+fieldset[disabled] .btn-saveDetail.active {
+  background-color:#F4A460;
+  border-color: #DCDCDC;
+}
+.btn-saveDetail .badge {
+  color:  #00FFFF ;
+  background-color: #fff;
+}
+/**保存明细 End**/
+
+
+
+/**Loading **/
+.panel-loading-overlay {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.panel-loading-container {
+  position: relative;
+}
+.panel-loading-info-panel {
+  width: 200px;
+  padding: 5px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -110px;
+  background: none;
+}
+.panel-loading-info-panel > span {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  padding-bottom: 5px;
+}
+/**Loading End**/
+/**Loading End**/
+.badge-feit {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #ff4500;
+  border-radius: 10px;
+}
+
+/**頁面收縮灰色區域**/
+.titlebar
+{
+	height: 40px;
+	background-color: #e5e5e5;
+	border: solid 1px #d7d7d7;
+}
+
+
+/**loading 層**/
+.loading-indicator {
+	height: 80px;
+	width: 80px;
+	background: url( '../../../imgs/loading.gif' );
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.loading-indicator-overlay {
+	background-color: #FFFFFF;
+	opacity: 0.6;
+	filter: alpha(opacity = 60);
+}
